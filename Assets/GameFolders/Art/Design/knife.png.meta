@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03944edd8ee77f941bcfc399bffcf93c
+guid: 3dbd6d74b9f548243a727c6303d51b13
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GodZilla_Front_0
+      name: knife_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 241
-        width: 262
-        height: 258
+        x: 4
+        y: 14
+        width: 22
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7032b40d4e0414740bc25667100a60fd
-      internalID: -858272090
+      spriteID: 27ca0fe472d224641863660cf6b6bc6c
+      internalID: 1825826055
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GodZilla_Front_0: -858272090
+      knife_0: 1825826055
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

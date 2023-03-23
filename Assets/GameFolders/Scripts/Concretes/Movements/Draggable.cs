@@ -8,7 +8,7 @@ namespace GameFolders.Scripts.Concretes.Movements
 {
     public class Draggable : MonoBehaviour
     {
-        private Vector2 difference = Vector2.zero;
+        private Vector2 difference;
 
         private void OnMouseDown()
         {

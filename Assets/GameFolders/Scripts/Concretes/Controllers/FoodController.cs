@@ -8,12 +8,12 @@ namespace GameFolders.Scripts.Concretes.Controllers
 {
     public class FoodController : MonoBehaviour
     {
-        [SerializeField] private GameObject[] choppedFood;
+        [SerializeField] private GameObject choppedFood;
         [SerializeField] private GameObject[] slice;
 
         private bool cuttable;
         private int knifeDamage;
-        
+
         private void OnTriggerEnter2D(Collider2D col)
         {
             if (col.gameObject.CompareTag("ChoppingBoard"))
@@ -27,24 +27,23 @@ namespace GameFolders.Scripts.Concretes.Controllers
                 {
                     knifeDamage++;
                     
-                    if (knifeDamage == 1)
+                    switch (knifeDamage)
                     {
-                        slice[0].SetActive(true);
-                    }
-
-                    if (knifeDamage == 2)
-                    {
-                        slice[1].SetActive(true);
-                    }
-
-                    if (knifeDamage == 3)
-                    {
-                        Destroy(gameObject);
-                        slice[0].SetActive(false);
-                        slice[1].SetActive(false);
-                        choppedFood[0].SetActive(true);
-                        choppedFood[1].SetActive(true);
-                        choppedFood[2].SetActive(true);
+                        case 1:
+                            slice[0].transform.position = transform.position;
+                            slice[0].SetActive(true);
+                            break;
+                        case 2:
+                            slice[1].transform.position = transform.position;
+                            slice[1].SetActive(true);
+                            break;
+                        case 3:
+                            ChoppedFoodTransform();
+                            Destroy(gameObject);
+                            slice[0].SetActive(false);
+                            slice[1].SetActive(false);
+                            choppedFood.SetActive(true);
+                            break;
                     }
                 }
             }
@@ -56,6 +55,11 @@ namespace GameFolders.Scripts.Concretes.Controllers
             {
                 cuttable = false;
             }
+        }
+
+        private void ChoppedFoodTransform()
+        {
+            choppedFood.transform.position = transform.position;
         }
     }
 }

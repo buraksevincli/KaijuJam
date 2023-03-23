@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03944edd8ee77f941bcfc399bffcf93c
+guid: 9367cf0fa377bb048b674bb85a195465
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GodZilla_Front_0
+      name: shark_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 241
-        width: 262
-        height: 258
+        y: 0
+        width: 267
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7032b40d4e0414740bc25667100a60fd
-      internalID: -858272090
+      spriteID: 5860f915f484a6a43aa806121c5a7360
+      internalID: -672665008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 266.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc86e0023610eec42ae06f0b0c5e2523
+      internalID: 1877881757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shark_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 266.66666
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc66b0b9aa7020941b92c3813ebaf45f
+      internalID: 366285495
       vertices: []
       indices: 
       edges: []
@@ -136,7 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GodZilla_Front_0: -858272090
+      shark_0: -672665008
+      shark_1: 1877881757
+      shark_2: 366285495
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

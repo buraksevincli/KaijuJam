@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03944edd8ee77f941bcfc399bffcf93c
+guid: c11b4f95e31a5194abae2987b01080b7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GodZilla_Front_0
+      name: bell_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 241
-        width: 262
-        height: 258
+        x: 80
+        y: 96
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7032b40d4e0414740bc25667100a60fd
-      internalID: -858272090
+      spriteID: 6105b1816b67736449e153cf59a47c70
+      internalID: -1525541895
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GodZilla_Front_0: -858272090
+      bell_0: -1525541895
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
