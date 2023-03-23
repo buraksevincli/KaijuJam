@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ChoppingBoard
+  - Knife
+  - Cooker
+  - Food1
+  - Food2
+  - Food3
+  - Food4
+  - Food
   layers:
   - Default
   - TransparentFX
