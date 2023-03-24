@@ -5,19 +5,11 @@ using EZCameraShake;
 
 public class CameraShakeControl : MonoBehaviour
 {
-   
-    void Start()
-    {
-        
-    }
-
-    
     void Update()
     {
-        if (Input.GetKey("S"))
+        if (Input.GetMouseButtonDown(0))
         {
-            gameObject.GetComponent<CameraShakeControl>().Shake(5, 3, 01f, 2f);
+            gameObject.GetComponent<CameraShaker>().ShakeOnce(5, 3, 01f, 2f);
         }
-
     }
 }

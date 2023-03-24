@@ -1,18 +1,37 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static GameManager Instance;
+
+    public int Index { get; set; }
+    public bool Plate1 { get; set; }
+    
+    private void Awake()
     {
-        
+        SingletonPattern();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void SingletonPattern()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        Debug.Log(Index);
+        Debug.Log(Plate1);
         
     }
 }

@@ -11,7 +11,6 @@ namespace GameFolders.Scripts.Concretes.Controllers
     {
         [SerializeField] private GameObject choppedFood;
         [SerializeField] private GameObject[] slice;
-        [SerializeField] private BoxCollider2D choppingBoard;
 
         private bool cuttable;
         
@@ -26,7 +25,6 @@ namespace GameFolders.Scripts.Concretes.Controllers
             
             if (col.gameObject.CompareTag("Knife"))
             {
-                Debug.Log(cuttable);
                 if (cuttable && Knife.holdingKnife)
                 {
                     knifeDamage++;
@@ -43,13 +41,11 @@ namespace GameFolders.Scripts.Concretes.Controllers
                             break;
                         case 3:
                             ChoppedFoodTransform();
-                            //choppingBoard.size = new Vector2(0.1f, 0.1f);
                             gameObject.SetActive(false);
                             slice[0].SetActive(false);
                             slice[1].SetActive(false);
                             choppedFood.SetActive(true);
                             break;
-                        
                     }
                 }
             }

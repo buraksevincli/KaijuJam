@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene("Tavern");
+        SceneManager.LoadScene("PlayerStory");
     }
 
     public void CreditsButton()
@@ -23,4 +23,13 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 
+    public void KitchenButton()
+    {
+        SceneManager.LoadScene("Kitchen");
+    }
+
+    public void TavernButton()
+    {
+        SceneManager.LoadScene("Tavern");
+    }
 }
