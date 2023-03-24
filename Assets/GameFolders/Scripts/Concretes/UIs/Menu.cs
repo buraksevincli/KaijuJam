@@ -12,7 +12,11 @@ public class Menu : MonoBehaviour
 
     public void CreditsButton()
     {
-        SceneManager.LoadScene("Tavern");
+        SceneManager.LoadScene("Credits");
+    }
+    public void XButton()
+    {
+        SceneManager.LoadScene("Menu");
     }
     public void QuitButton()
     {
