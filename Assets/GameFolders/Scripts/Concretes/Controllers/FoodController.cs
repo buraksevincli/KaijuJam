@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameFolders.Scripts.Concretes.Movements;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,8 +11,10 @@ namespace GameFolders.Scripts.Concretes.Controllers
     {
         [SerializeField] private GameObject choppedFood;
         [SerializeField] private GameObject[] slice;
+        [SerializeField] private BoxCollider2D choppingBoard;
 
         private bool cuttable;
+        
         private int knifeDamage;
 
         private void OnTriggerEnter2D(Collider2D col)
@@ -23,7 +26,8 @@ namespace GameFolders.Scripts.Concretes.Controllers
             
             if (col.gameObject.CompareTag("Knife"))
             {
-                if (cuttable)
+                Debug.Log(cuttable);
+                if (cuttable && Knife.holdingKnife)
                 {
                     knifeDamage++;
                     
@@ -39,11 +43,13 @@ namespace GameFolders.Scripts.Concretes.Controllers
                             break;
                         case 3:
                             ChoppedFoodTransform();
-                            Destroy(gameObject);
+                            //choppingBoard.size = new Vector2(0.1f, 0.1f);
+                            gameObject.SetActive(false);
                             slice[0].SetActive(false);
                             slice[1].SetActive(false);
                             choppedFood.SetActive(true);
                             break;
+                        
                     }
                 }
             }
