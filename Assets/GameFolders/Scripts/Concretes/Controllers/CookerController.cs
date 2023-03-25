@@ -14,7 +14,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
         
         private void Update()
         {
-            if (food1&&food2&&food3&&food4 )
+            if (food1 && food2 && food3 && food4)
             {
                 prepairButton.SetActive(true);
             }
