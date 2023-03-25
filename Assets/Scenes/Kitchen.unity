@@ -298,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63742886}
   m_LocalRotation: {x: 0.3823192, y: -0.016692424, z: 0.040299077, w: 0.9230003}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.2, y: -0.04, z: -0.04}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -870,6 +870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e1d3394486c94449ddc8d936379862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prepairButton: {fileID: 1472203097}
 --- !u!1 &445501868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,7 +1769,7 @@ GameObject:
   - component: {fileID: 903590960}
   m_Layer: 0
   m_Name: Food2-2
-  m_TagString: Food2
+  m_TagString: Food22
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2247,7 +2248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b75261db9f6925a46864e69e0d3a9dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plate1: {fileID: 0}
 --- !u!4 &992941340
 Transform:
   m_ObjectHideFlags: 0
@@ -2424,7 +2424,7 @@ GameObject:
   - component: {fileID: 1134093215}
   m_Layer: 0
   m_Name: Food1-1
-  m_TagString: Food1
+  m_TagString: Food11
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2865,7 +2865,7 @@ GameObject:
   - component: {fileID: 1461965751}
   m_Layer: 0
   m_Name: Food3-2
-  m_TagString: Food3
+  m_TagString: Food32
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3014,7 +3014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1472203098
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3604,7 +3604,7 @@ GameObject:
   - component: {fileID: 1758353816}
   m_Layer: 0
   m_Name: Food1-3
-  m_TagString: Food1
+  m_TagString: Food13
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

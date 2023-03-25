@@ -11,6 +11,10 @@ TagManager:
   - Food2
   - Food3
   - Food4
+  - Food13
+  - Food11
+  - Food22
+  - Food32
   layers:
   - Default
   - TransparentFX
