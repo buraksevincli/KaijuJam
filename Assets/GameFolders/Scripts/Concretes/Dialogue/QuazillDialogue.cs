@@ -43,7 +43,7 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                         break;
                     case 2:
                         continueButton[0].SetActive(true);
-                        usText.text = "One ---------- with a glass of blood. Coming up.";
+                        usText.text = "One AquaMan with a glass of blood. Coming up.";
                         break;
                     case 3:
                         continueButton[0].SetActive(true);

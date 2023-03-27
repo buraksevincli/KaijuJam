@@ -27,11 +27,4 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-
-    private void Update()
-    {
-        Debug.Log(GodIndex);
-        Debug.Log(Plate1);
-        
-    }
 }
