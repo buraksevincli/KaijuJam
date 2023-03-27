@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int Index { get; set; }
+    public int GodIndex { get; set; }
     public bool Plate1 { get; set; }
     
     private void Awake()
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(Index);
+        Debug.Log(GodIndex);
         Debug.Log(Plate1);
         
     }
