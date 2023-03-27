@@ -567,7 +567,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1518654337}
   dialogueSentences:
-  - "Karakterimizin destans\u0131 hikayesi"
+  - "After all the years of smashing, crushing, and burning all cities down, you
+    were tired of all this theatre. This endless violence didn\u2019t seem to come
+    to an end. So, you decided to leave all behind\u2026 An opportunity to start
+    fresh as an innkeeper. Serving other Kaijus without involving their constant
+    violence. You choose to open your business and meet new Kaijus\u2026"
   continueButton: {fileID: 1635091398}
   writeSpeed: 0.005
 --- !u!1 &1518654334
@@ -603,11 +607,11 @@ RectTransform:
   m_Father: {fileID: 473056260}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
-  m_SizeDelta: {x: 1128.35, y: 1080}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1518654336
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -699,7 +703,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 31.907684, y: 104.57938, z: 30.82489, w: 83.236694}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -837,7 +841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 31, y: 71}
+  m_AnchoredPosition: {x: 0, y: 250}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &2040035818
