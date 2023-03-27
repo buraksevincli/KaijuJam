@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3d73d65760862c4e95feccf9528e53b
+guid: 20df0c176881cfd4f8bb6e0fcd3d654d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: play5_0
+      name: food_bell_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 28
-        width: 57
-        height: 18
+        x: 80
+        y: 96
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5682bdf3386ec7a46a8590b0e968e250
-      internalID: -407859214
+      spriteID: d2a7431575ec58e4e84625bfe7b17cf8
+      internalID: -1932303466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_bell_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 100
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c7b8b0d78d68f488d0565eca2c1a0d
+      internalID: 653207650
       vertices: []
       indices: 
       edges: []
@@ -136,7 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      play5_0: -407859214
+      food_bell_0: -1932303466
+      food_bell_1: 653207650
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
