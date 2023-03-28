@@ -9,7 +9,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
     public class CookerController : MonoBehaviour
     {
         [SerializeField] private GameObject prepairButton;
-        [SerializeField] private GameObject audio;
+        [SerializeField] private GameObject _audio;
 
         private bool food1,food2,food3,food4 = false;
         
@@ -26,7 +26,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
             
             if (food1 || food2 || food3 || food4)
             {
-                audio.SetActive(true);
+                _audio.SetActive(true);
             }
         }
 
@@ -68,9 +68,6 @@ namespace GameFolders.Scripts.Concretes.Controllers
                 GameManager.Instance.GenIndex++;
                 SceneManager.LoadScene("Tavern2");
             }
-            
-            
-            
         }
     }
 }

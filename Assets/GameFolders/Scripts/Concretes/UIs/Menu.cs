@@ -34,4 +34,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Tavern");
     }
+
+    public void Tavern2Button()
+    {
+        SceneManager.LoadScene("Tavern2");
+    }
 }

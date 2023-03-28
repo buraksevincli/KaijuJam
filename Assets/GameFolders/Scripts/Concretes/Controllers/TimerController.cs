@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,20 +8,39 @@ namespace GameFolders.Scripts.Concretes.Controllers
 {
     public class TimerController : MonoBehaviour
     {
-        [SerializeField] private Image _timerImage;
-        [SerializeField] private float _duration;
+        [SerializeField] private Image timerImage;
+        [SerializeField] private TMP_Text text;
 
-        public static float _currentTime { get; set; }
+        [SerializeField] private float barValue = 0.5f;
+        [SerializeField] private float duration;
+        [SerializeField] private int increaseCount = 2500;
+        [SerializeField] private int maxCount = 8000000;
+        [SerializeField] private string lastText = "8.000.000";
+        
+        private float _currentTime;
+        private int _textCount;
     
-        private void OnEnable()
+        private void Start()
         {
-            _currentTime = 0;
+            _currentTime = barValue;
         }
 
         private void Update()
         {
-            _timerImage.fillAmount = _currentTime;
-            _currentTime += Time.deltaTime/_duration;
+            
+            timerImage.fillAmount = _currentTime;
+            _currentTime += Time.deltaTime/duration;
+
+            if (_textCount < maxCount)
+            {
+                text.text = (_textCount+=increaseCount).ToString();
+            }
+            else
+            {
+                text.text = lastText;
+            }
+            
+
         }
     }
 }
