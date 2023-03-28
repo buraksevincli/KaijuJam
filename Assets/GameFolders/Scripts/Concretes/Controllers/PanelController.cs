@@ -9,7 +9,7 @@ public class PanelController : MonoBehaviour
     [SerializeField] private GameObject canvasPanel;
 
     private Image panelImage;
-    
+
     private void Start()
     {
         panelImage = canvasPanel.GetComponent<Image>();

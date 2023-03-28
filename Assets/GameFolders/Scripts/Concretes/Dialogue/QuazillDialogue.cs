@@ -270,35 +270,35 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GoToTheKitchen());
                     break;
                 case 12:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 15:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 20:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 23:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 31:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 34:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 39:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 42:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 default:
@@ -334,11 +334,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 12:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 15:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 17:
@@ -347,11 +347,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 20:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 23:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 26:
@@ -365,11 +365,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 31:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 34:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 36:
@@ -378,11 +378,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 39:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 42:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 default:

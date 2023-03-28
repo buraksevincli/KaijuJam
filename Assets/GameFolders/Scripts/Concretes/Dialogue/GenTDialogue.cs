@@ -101,11 +101,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GoToTheKitchen());
                     break;
                 case 7:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("GenGoodChoose");
                     GameManager.Instance.GenIndex = 0;
                     break;
                 case 10:
-                    Debug.Log("Mutlu Son");
+                    SceneManager.LoadScene("GenGoodChoose");
                     GameManager.Instance.GenIndex = 0;
                     break;
                 default:
@@ -131,11 +131,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GenDialogue(GameManager.Instance.GenIndex));
                     break;
                 case 7:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("GenBadChoose");
                     GameManager.Instance.GenIndex = 0;
                     break;
                 case 10:
-                    Debug.Log("Mutsuz Son");
+                    SceneManager.LoadScene("GenBadChoose");
                     GameManager.Instance.GenIndex = 0;
                     break;
                 default:
