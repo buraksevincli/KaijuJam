@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2586614383122892152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2586614383122892158}
+  - component: {fileID: 2586614383122892153}
+  m_Layer: 0
+  m_Name: QuazillDialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2586614383122892158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2586614383122892152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4849145, y: -2.2911038, z: 5.6225433}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2586614383122892153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2586614383122892152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 654dcd61207db1f469d530d1bcd723d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  godText: {fileID: 0}
+  usText: {fileID: 0}
+  us2Text: {fileID: 0}
+  godzillaDialogue:
+  - Hello old friend, long time no see.
+  - No, of course not. Those little b*stards keep causing troubles. Just give me
+    something to eat if we continue to talk.
+  - Yeah, sure, whatever. Just add 0-.
+  - It's looks as good as always.
+  - "They\u2019re so f*cking frustrating, the young ones. There is no respect and
+    honor. They just walk around and mess with everybody."
+  - Okay, you maybe right.
+  - You're telling me! Some of them got themselves involved in governments. They
+    help them for Nukes, for God's sake!
+  - Yeah, no honor as I said. It is hard to be patient now, isn't it?
+  - Oh right. Do you remember my old man. He was always in the action. He smashed,
+    crushed, and burnt every building in New York City.
+  - These were simple times my old friend. Simple without responsibility.
+  - I miss the times you still in the family. You always help me on these things.
+    You were the patient one.
+  - It is useless brother, I tried. I have hands full of youngsters try to draw a
+    contract for stupid japanese ads.
+  - A bunch of youngsters of us just broke the honor code with not only those government
+    helps but also try to be famous on tv ads for Japanese firms.
+  - I miss the times you still in the family. You always help me on these things.
+    You were the tough one.
+  - I hear you brother. I wish I can get rid of those youngsters try to draw a contract
+    for stupid japanese ads.
+  - A bunch of youngsters of us just broke the honor code with not only those government
+    helps but also try to be famous on tv ads for Japanese firms.
+  - Damn right. Do you remember my old man. He was always in the action. He smashed,
+    crushed, and burnt every building in New York City.
+  - That was the way for us my old friend. We learnt and tought in the family, not
+    to governments.
+  - I miss the times you still in the family. You always help me on these things.
+    You were the patient one.
+  - Believe me brother, I tried. Now, I have hands full of youngsters try to draw
+    a contract for stupid japanese ads.
+  - A bunch of new kiddos of us just broke the honor code with both those government
+    helps and ad contracts for Japanese firms.
+  - I miss the times you still in the family. You always help me on these things.
+    You were the tough one.
+  - I hear you brother. I wish I can get rid of those youngsters try to draw contracts
+    for stupid japanese ads.
+  - A bunch of youngsters of us just try to be famous on tv ads for Japanese firms.
+  - Yeah, you are right.
+  - You're telling me! Some of them got themselves involved in governments. They
+    help them for Nukes, for God's sake!
+  - Yeah, no honor as I said. How can I keep them in line?
+  - Oh right. Do you remember my old man. He was always in the action. He smashed,
+    crushed, and burnt every building in New York City.
+  - These were simple times my old friend. Our fathers took care of us.
+  - I miss the times you still in the family. You always help me on these things.
+    You were the patient one.
+  - Believe me brother, I tried. Now, I have hands full of youngsters try to draw
+    a contract for stupid japanese ads.
+  - A bunch of new kiddos of us just try to draw contracts with Japanese firms.
+  - I miss the times you still in the family. You always help me on these things.
+    You were the tough one.
+  - I hear you brother. I just wish I can get rid of those youngsters try to draw
+    contracts for stupid japanese ads.
+  - A bunch of youngsters of us just try to be famous on tv ads for Japanese firms.
+  - Oh right. Do you remember my old man. He was always in the action. He smashed,
+    crushed, and burnt every building in New York City.
+  - He would hunt and kill every each of those b*stards. You know that, right?
+  - I miss the times you still in the family. You always help me on these things.
+    You were the patient one.
+  - Believe me brother, I tried. Now, I have some youngsters try to draw contracts
+    for stupid japanese ads.
+  - A bunch of new kiddos of us just try to draw ad contracts with Japanese firms.
+    AD CONTRACTS...
+  - I miss the times you still in the family. You always help me on these things.
+    You were the tough one.
+  - I hear you brother. I just wish I can get rid of those youngsters try to draw
+    contracts for stupid japanese ads.
+  - A bunch of youngsters of us just try to be famous on tv ads for Japanese firms.
+  continueButton:
+  - {fileID: 0}
+  - {fileID: 0}
+  sceneClosePanel: {fileID: 0}
+  writeSpeed: 0.025

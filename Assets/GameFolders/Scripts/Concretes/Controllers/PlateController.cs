@@ -8,7 +8,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
     public class PlateController : MonoBehaviour
     {
         [SerializeField] private GameObject plate;
-        private void OnEnable()
+        private void Start()
         {
             if (GameManager.Instance.Plate1)
             {

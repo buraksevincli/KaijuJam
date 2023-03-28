@@ -17,6 +17,7 @@ public class Menu : MonoBehaviour
     public void XButton()
     {
         GameManager.Instance.GodIndex = 0;
+        GameManager.Instance.GenIndex = 0;
         SceneManager.LoadScene("Menu");
     }
     public void QuitButton()

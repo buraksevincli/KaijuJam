@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public int GodIndex { get; set; }
+    public int GenIndex { get; set; }
     public bool Plate1 { get; set; }
     
     private void Awake()
