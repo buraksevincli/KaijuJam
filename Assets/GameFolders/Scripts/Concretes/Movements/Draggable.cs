@@ -1,3 +1,4 @@
+using System;
 using GameFolders.Scripts.Concretes.Controllers;
 using UnityEngine;
 
@@ -6,6 +7,13 @@ namespace GameFolders.Scripts.Concretes.Movements
     public class Draggable : MonoBehaviour
     {
         private Vector2 difference;
+
+        private SpriteRenderer _spriteRenderer;
+
+        private void Awake()
+        {
+            _spriteRenderer = GetComponent<SpriteRenderer>();
+        }
 
         private void OnMouseDown()
         {
