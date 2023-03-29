@@ -205,7 +205,7 @@ MonoBehaviour:
   text: {fileID: 5068651312088000362}
   barValue: 1
   duration: 12
-  increaseCount: 2500
+  increaseCount: 5500
   maxCount: 8000000
   lastText: -8.000.000
 --- !u!1001 &305232816
@@ -585,6 +585,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1971948856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.57393104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8031855
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.1967573
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247172, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098443093876247174, guid: 050425717c7362c459aa512417ed52f0, type: 3}
+      propertyPath: m_Name
+      value: PlayerStoryMusic
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 050425717c7362c459aa512417ed52f0, type: 3}
 --- !u!1001 &4040361217774643376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -909,7 +966,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu
+  m_text: Next..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dde4b44530519fe4fa26321a0282f369, type: 2}
   m_sharedMaterial: {fileID: 8632937113470836370, guid: dde4b44530519fe4fa26321a0282f369, type: 2}

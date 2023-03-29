@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public int GenIndex { get; set; }
     public bool Plate1 { get; set; }
     
+    public bool Plate2 { get; set; }
+    
     private void Awake()
     {
         SingletonPattern();

@@ -591,7 +591,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1279090464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8e5834bc89d0924a8575f6205fc75ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a89c215a3209cd478fae3e54dccf76a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   plate: {fileID: 6040960242825957002}
@@ -663,8 +663,8 @@ MonoBehaviour:
     believe you can help me to spread the word of the God.
   - The One and Only, True God.
   - It make its name known only to its true believers. It is the master of the Kaijus.
-  - Just accept it as the True God and tell all Kaijus to stop kill themselves and
-    start killing for the name of the God.
+  - Just accept it as the True God and tell all Kaijus to stop kill for themselves
+    and start killing for the name of the God.
   - Yeah, for the One and Only, True God.
   - It make its name known only to its true believers. It is the master of the Kaijus.
   - 'Just accept it as the True God and tell all Kaijus to stop kill themselves and

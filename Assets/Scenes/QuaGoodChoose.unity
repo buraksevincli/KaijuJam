@@ -205,7 +205,7 @@ MonoBehaviour:
   text: {fileID: 1597920267}
   barValue: 0.8
   duration: 12
-  increaseCount: 2500
+  increaseCount: 5500
   maxCount: 8000000
   lastText: +8.000.000
 --- !u!1 &483736630
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu
+  m_text: Next..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dde4b44530519fe4fa26321a0282f369, type: 2}
   m_sharedMaterial: {fileID: 8632937113470836370, guid: dde4b44530519fe4fa26321a0282f369, type: 2}

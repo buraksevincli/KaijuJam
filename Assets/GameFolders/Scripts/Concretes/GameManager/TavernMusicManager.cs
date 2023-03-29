@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class TavernMusicManager : MonoBehaviour
 {
-    [SerializeField] private int activeSceneIndex;
     
     public static TavernMusicManager Instance;
 
@@ -31,19 +30,30 @@ public class TavernMusicManager : MonoBehaviour
     private void Update()
     {
         buildIndex = SceneManager.GetActiveScene().buildIndex;
-        
-        if (buildIndex == activeSceneIndex)
-        {
-            _audioSource.mute = false;
-        }
-        else
-        {
-            _audioSource.mute = true;
-        }
 
-        if (buildIndex == 0)
+        switch (buildIndex)
         {
-            _audioSource.time = 0f;
+            case 0:
+                _audioSource.time = 0f;
+                break;
+            case 2:
+                _audioSource.mute = false;
+                break;
+            case 3:
+                _audioSource.mute = false;
+                break;
+            case 5:
+                _audioSource.mute = false;
+                break;
+            case 6:
+                _audioSource.mute = false;
+                break;
+            case 8:
+                _audioSource.mute = false;
+                break;
+            default:
+                _audioSource.mute = true;
+                break;
         }
     }
 }

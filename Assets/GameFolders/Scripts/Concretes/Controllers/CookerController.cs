@@ -57,14 +57,16 @@ namespace GameFolders.Scripts.Concretes.Controllers
 
         public void PreparedFood()
         {
-            GameManager.Instance.Plate1 = true;
+            
             if (GameManager.Instance.GodIndex ==2)
             {
+                GameManager.Instance.Plate1 = true;
                 GameManager.Instance.GodIndex++;
                 SceneManager.LoadScene("Tavern");
             }
             else
             {
+                GameManager.Instance.Plate2 = true;
                 GameManager.Instance.GenIndex++;
                 SceneManager.LoadScene("Tavern2");
             }

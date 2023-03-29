@@ -270,35 +270,35 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GoToTheKitchen());
                     break;
                 case 12:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 15:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 20:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 23:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 31:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 34:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 39:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 42:
-                    SceneManager.LoadScene("QuaGoodChoose");
+                    SceneManager.LoadScene("QuaBadChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 default:
@@ -334,11 +334,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 12:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 15:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 17:
@@ -347,11 +347,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 20:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 23:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 26:
@@ -365,11 +365,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 31:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 34:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 36:
@@ -378,11 +378,11 @@ namespace GameFolders.Scripts.Concretes.Dialogue
                     StartCoroutine(GodzillaDialogue(GameManager.Instance.GodIndex));
                     break;
                 case 39:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 case 42:
-                    SceneManager.LoadScene("QuaBadChoose");
+                    SceneManager.LoadScene("QuaGoodChoose");
                     GameManager.Instance.GodIndex = 0;
                     break;
                 default:

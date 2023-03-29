@@ -18,7 +18,7 @@ public class BoxController : MonoBehaviour
     {
         food.transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        spriteRenderer.sortingOrder = 4;
+        spriteRenderer.sortingOrder = 5;
         Destroy(_boxCollider);
     }
 }
