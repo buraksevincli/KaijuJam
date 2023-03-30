@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameFolders.Scripts.Concretes.Movements;
 using UnityEngine;
 
 public class BoxController : MonoBehaviour
@@ -20,5 +21,10 @@ public class BoxController : MonoBehaviour
 
         spriteRenderer.sortingOrder = 5;
         Destroy(_boxCollider);
+    }
+
+    private void OnMouseDrag()
+    {
+        food.transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 }
